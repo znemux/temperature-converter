@@ -1,0 +1,13 @@
+[package]
+name = "temperature-converter"
+version = "1.0.0"
+authors = ["znemux"]
+description = "This is a small program that converts temperature in different units."
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+strip = true
+opt-level = "s"
+lto = true
